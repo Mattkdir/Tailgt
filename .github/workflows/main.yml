@@ -400,7 +400,6 @@ jobs:
           else
             echo "No cycles configured. Done."
           fi
-'''
 
 print("Modified workflow created successfully!")
 print("\nKey changes made:")
