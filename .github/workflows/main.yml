@@ -400,31 +400,3 @@ jobs:
           else
             echo "No cycles configured. Done."
           fi
-
-print("Modified workflow created successfully!")
-print("\nKey changes made:")
-print("1. Changed runs-on from windows-latest to ubuntu-latest (Debian-based)")
-print("2. Changed shell from pwsh to bash")
-print("3. Replaced PowerShell commands with bash equivalents")
-print("4. Replaced Windows RDP with xrdp (Linux RDP solution)")
-print("5. Replaced Windows-specific Chrome Remote Desktop setup with Linux version")
-print("6. Updated RustDesk installation to use .deb package")
-print("7. Replaced Windows firewall commands with ufw/iptables")
-print("8. Updated screenshot capture to use Linux tools (scrot/import)")
-print("9. Added virtual display (Xvfb) for headless operation")
-print("10. Updated all path references from Windows to Linux conventions")
-
- # Result 
-Modified workflow created successfully!
-
-Key changes made:
-1. Changed runs-on from windows-latest to ubuntu-latest (Debian-based)
-2. Changed shell from pwsh to bash
-3. Replaced PowerShell commands with bash equivalents
-4. Replaced Windows RDP with xrdp (Linux RDP solution)
-5. Replaced Windows-specific Chrome Remote Desktop setup with Linux version
-6. Updated RustDesk installation to use .deb package
-7. Replaced Windows firewall commands with ufw/iptables
-8. Updated screenshot capture to use Linux tools (scrot/import)
-9. Added virtual display (Xvfb) for headless operation
-10. Updated all path references from Windows to Linux conventions
